@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Posicionamento (static, relative, absolute e fixed)</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+
+            body{
+                background-color: #007fc7;
+            }
+
+            #container{
+                background-color: #fff;
+                width: 800px;
+                margin: 10px auto;
+                padding: 10px;
+                position: relative;
+            }
+
+            h1{
+                position: static;
+            }
+
+            p{
+                width: 300px;
+            }
+
+            .relative{
+                position: relative;
+                /*top, right, bottom, left*/
+                /*top: -20px;
+                left: 0px;*/
+                right: 0px;
+                bottom: 0px;
+                border: 1px solid red;
+            }
+
+            .absolute{
+                position: absolute;
+                border: 1px solid red;
+                top: 80px;
+                right: 20px;
+                background-color: #f2f2f2;
+            }
+
+            .fixed{
+                position: fixed;
+                border: 1px solid red;
+                background-color: #f2f2f2;
+                bottom: 0px;
+                right: 0px;
+                margin: 0px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+            <h1>Posicionamentos</h1>
+
+            <p>P1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore reiciendis cumque sit ea et omnis, id repellendus rem! Laborum hic enim inventore velit neque asperiores in quam et consequatur! Tempora.</p>
+            <p class="fixed">P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis tempora blanditiis harum, quidem magnam deserunt dicta expedita labore, eligendi iusto quis nam itaque asperiores iste et? Possimus, aut dignissimos?</p>
+            <p>P3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis consequatur quidem alias tempore ullam perferendis adipisci similique, saepe doloremque corrupti laboriosam odio laudantium eaque atque veniam reiciendis vero beatae eum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, accusantium asperiores temporibus porro, natus earum provident libero nisi repellat aperiam vel eos consectetur necessitatibus eius dolorem cum facere non! Laboriosam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla ullam minima reiciendis, sint numquam ut aspernatur vitae officia voluptate et voluptatibus dolore velit, est delectus expedita ipsam exercitationem in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla ullam minima reiciendis, sint numquam ut aspernatur vitae officia voluptate et voluptatibus dolore velit, est delectus expedita ipsam exercitationem in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla ullam minima reiciendis, sint numquam ut aspernatur vitae officia voluptate et voluptatibus dolore velit, est delectus expedita ipsam exercitationem in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla ullam minima reiciendis, sint numquam ut aspernatur vitae officia voluptate et voluptatibus dolore velit, est delectus expedita ipsam exercitationem in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla ullam minima reiciendis, sint numquam ut aspernatur vitae officia voluptate et voluptatibus dolore velit, est delectus expedita ipsam exercitationem in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nulla ullam minima reiciendis, sint numquam ut aspernatur vitae officia voluptate et voluptatibus dolore velit, est delectus expedita ipsam exercitationem in!</p>
+        
+        </div>
+
+    </body>
+</html>
